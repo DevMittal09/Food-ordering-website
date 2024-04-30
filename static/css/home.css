@@ -1,0 +1,135 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-top: 0px;
+}
+
+header h1 {
+  margin: 0 auto 10 auto;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.featured-dishes {
+  padding: 50px 20px;
+}
+
+.dish {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dish img {
+
+  width: 230px;
+  height: 170px;
+  border-radius: 5px;
+}
+
+.container1 {
+  position: relative;
+  width: 300%;
+  max-width: 1430px;
+}
+
+.top-left {
+  position: absolute;
+  font-family: ROBOTO;
+  top: 300px;
+  left: 320px;
+  padding: 10px 20px;
+}
+header1 {
+  background: beige;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+main {
+  margin-top: 060px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s ease;
+  z-index: 9999;
+}
+
+.hide-nav {
+  transform: translateY(-100%);
+}
+
+.empty-space {
+  height: 115px;
+  width: 100%;
+  display: block;
+}
+
+
+.nav-link {
+  color: brown;
+}
+
+.nav-link.active {
+  color: brown;
+}
+
+.body2 {
+  background-color: #e5eaf5;
+  color: #0d465d;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.add-to-cart {
+  display: flex; /* allows you to easily distribute space among flex items within the flex container. */
+  align-items: center;
+  justify-content: center;
+}
+
+.minus-btn,
+.plus-btn {
+  background-color: #023965a4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+
+.item-count {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.btn-primary:hover {
+  background-color: #1c2658;
+}
+
+.brown-border-btn {
+  border: 2px solid brown;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
