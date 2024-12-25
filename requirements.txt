@@ -1,5 +1,6 @@
 Flask
 gunicorn
+cryptography
 pymysql
 flask_wtf 
 wtforms 
